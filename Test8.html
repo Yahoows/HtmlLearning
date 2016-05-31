@@ -6,10 +6,28 @@
 </head>
 <body>
 <form>
-    账号：<input type="text" name="username"size="20" maxlength="20" >
+    Username:<input type="text" value="Enter" name="username"size="20" maxlength="20" >
     <br>
     <br>
-    密码：<input type="password" name="password" size="20" maxlength="15" >
+    Password:<input type="password" name="password" size="20" maxlength="15" >
+    <br>
+    <br>
+    Sex:<input type="radio" name="sex" > Man <input type="radio" name="sex"> Woman
+    <br>
+    <br>
+    Hobby:<input type="checkbox" name="sport"> Sport <input type="checkbox" name="song">Song
+    <br>
+    <br>
+    Address:
+    <select name="address" >
+        <option name=""></option>
+        <option name="beijing">北京</option>
+        <option name="shanghai">上海</option>
+        <option name="guangzhou">广州</option>
+    </select>
+    <br>
+    <br>
+    Details:<br><textarea name="details" rows="15" cols="35" maxlength="10"></textarea>
     <br>
     <br>
     <input type="submit" value="提交">
